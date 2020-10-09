@@ -1,0 +1,9 @@
+/* retirando o estilo da lista do menu-item */
+/* retirando o margin-right do ultimo elemento do menu-item menu-link */
+.menu__item {
+    list-style: none;
+}
+
+.menu__item:last-child .menu__link {
+    margin-right: 0;
+}

@@ -1,0 +1,28 @@
+/* aplicando o efeito no header que vai ser o container pai do menu */
+/* alinhando items ao centro */
+/* aplicando cor */
+/* aplicando o display flex */
+/* aplicando o justify content space between */
+/* padding left and right */
+.cabecalho {
+    align-items: center;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+@media screen and (min-width: 0) {
+    .cabecalho {
+        justify-content: center;
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        padding: 0 5rem;
+        justify-content: space-between;
+    }
+}

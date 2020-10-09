@@ -1,0 +1,5 @@
+/* manu-lista vai receber o display flex já que e filho do cabecalho */
+/* recebendo assim os parametros do elemento pai e ajustando seus elementos automaticamente */
+.menu__lista {
+    display: flex;
+}
